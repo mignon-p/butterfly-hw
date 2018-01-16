@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 6300 6850 6400
 Wire Wire Line
-	4000 6300 3900 6300
+	3850 6300 4000 6300
 Wire Wire Line
 	3900 6300 3900 6400
 Wire Wire Line
@@ -490,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 2100 3600
 Wire Wire Line
-	10000 3600 2100 3600
+	2100 3600 10000 3600
 Wire Wire Line
 	9100 3600 9100 3800
 Wire Wire Line
@@ -679,10 +679,76 @@ F 3 "" H 10000 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 700  10000 3600
+	10000 3600 10000 700 
 Connection ~ 9100 800 
 Connection ~ 9100 2200
 Connection ~ 10000 800 
 Connection ~ 9100 3600
 Connection ~ 10000 2200
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5A5E8BD7
+P 5250 5200
+F 0 "J?" H 5300 5400 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5300 5000 50  0000 C CNN
+F 2 "" H 5250 5200 50  0001 C CNN
+F 3 "" H 5250 5200 50  0001 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5100 3950 5100
+Wire Wire Line
+	3950 5100 3950 5900
+Wire Wire Line
+	3950 5900 4000 5900
+Wire Wire Line
+	5050 5200 3900 5200
+Wire Wire Line
+	3900 5200 3900 6000
+Wire Wire Line
+	3900 6000 4000 6000
+Wire Wire Line
+	5050 5300 3850 5300
+Wire Wire Line
+	3850 5300 3850 6300
+Connection ~ 3900 6300
+Wire Wire Line
+	5550 5200 5750 5200
+Wire Wire Line
+	5750 5200 5750 5500
+Wire Wire Line
+	5750 5500 4000 5500
+Wire Wire Line
+	4000 5500 4000 5800
+$Comp
+L +5V #PWR?
+U 1 1 5A5E934B
+P 5650 5000
+F 0 "#PWR?" H 5650 4850 50  0001 C CNN
+F 1 "+5V" H 5650 5140 50  0000 C CNN
+F 2 "" H 5650 5000 50  0001 C CNN
+F 3 "" H 5650 5000 50  0001 C CNN
+	1    5650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A5E93B6
+P 5950 5400
+F 0 "#PWR?" H 5950 5150 50  0001 C CNN
+F 1 "GND" H 5950 5250 50  0000 C CNN
+F 2 "" H 5950 5400 50  0001 C CNN
+F 3 "" H 5950 5400 50  0001 C CNN
+	1    5950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5100 5650 5100
+Wire Wire Line
+	5650 5100 5650 5000
+Wire Wire Line
+	5550 5300 5950 5300
+Wire Wire Line
+	5950 5300 5950 5400
 $EndSCHEMATC
