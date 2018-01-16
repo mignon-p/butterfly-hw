@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 98.409153 69.322099 144.997331 134.925641)
+    (area 98.409153 69.322099 145.050001 134.925641)
     (thickness 1.6)
     (drawings 91)
     (tracks 0)
@@ -193,4 +193,14 @@
   (gr_line (start 128.76223 81.9574) (end 122.79533 78.1404) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 106.5 99.5) (end 109.05623 102.4917) (layer Edge.Cuts) (width 0.1))
 
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5A5E5A3D) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 141.5 100) (xy 128 122.5) (xy 108 81)
+      )
+    )
+  )
 )
