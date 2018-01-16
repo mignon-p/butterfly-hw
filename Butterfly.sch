@@ -1,1 +1,172 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY85-20PU U?
+U 1 1 5A5E764B
+P 5200 4000
+F 0 "U?" H 4050 4400 50  0000 C CNN
+F 1 "ATTINY85-20PU" H 6200 3600 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 6200 4000 50  0001 C CIN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A5E7713
+P 6700 4350
+F 0 "#PWR?" H 6700 4100 50  0001 C CNN
+F 1 "GND" H 6700 4200 50  0000 C CNN
+F 2 "" H 6700 4350 50  0001 C CNN
+F 3 "" H 6700 4350 50  0001 C CNN
+	1    6700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A5E772A
+P 6700 3650
+F 0 "#PWR?" H 6700 3500 50  0001 C CNN
+F 1 "+5V" H 6700 3790 50  0000 C CNN
+F 2 "" H 6700 3650 50  0001 C CNN
+F 3 "" H 6700 3650 50  0001 C CNN
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3750 6700 3750
+Wire Wire Line
+	6700 3750 6700 3650
+Wire Wire Line
+	6550 4250 6700 4250
+Wire Wire Line
+	6700 4250 6700 4350
+$Comp
+L R R?
+U 1 1 5A5E7788
+P 3750 4500
+F 0 "R?" V 3830 4500 50  0000 C CNN
+F 1 "10k" V 3750 4500 50  0000 C CNN
+F 2 "" V 3680 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0001 C CNN
+	1    3750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A5E77D2
+P 4000 4650
+F 0 "#PWR?" H 4000 4500 50  0001 C CNN
+F 1 "+5V" H 4000 4790 50  0000 C CNN
+F 2 "" H 4000 4650 50  0001 C CNN
+F 3 "" H 4000 4650 50  0001 C CNN
+	1    4000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4250 3750 4250
+Wire Wire Line
+	3750 4250 3750 4350
+Wire Wire Line
+	3750 4650 3750 4750
+Wire Wire Line
+	3750 4750 4000 4750
+Wire Wire Line
+	4000 4750 4000 4650
+$Comp
+L POT RV?
+U 1 1 5A5E792F
+P 3350 4150
+F 0 "RV?" V 3175 4150 50  0000 C CNN
+F 1 "10k" V 3250 4150 50  0000 C CNN
+F 2 "" H 3350 4150 50  0001 C CNN
+F 3 "" H 3350 4150 50  0001 C CNN
+	1    3350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A5E7961
+P 3350 3900
+F 0 "#PWR?" H 3350 3750 50  0001 C CNN
+F 1 "+5V" H 3350 4040 50  0000 C CNN
+F 2 "" H 3350 3900 50  0001 C CNN
+F 3 "" H 3350 3900 50  0001 C CNN
+	1    3350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A5E797E
+P 3350 4400
+F 0 "#PWR?" H 3350 4150 50  0001 C CNN
+F 1 "GND" H 3350 4250 50  0000 C CNN
+F 2 "" H 3350 4400 50  0001 C CNN
+F 3 "" H 3350 4400 50  0001 C CNN
+	1    3350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4000 3350 3900
+Wire Wire Line
+	3350 4300 3350 4400
+Wire Wire Line
+	3500 4150 3850 4150
+$Comp
+L R R?
+U 1 1 5A5E7A15
+P 3550 3800
+F 0 "R?" V 3630 3800 50  0000 C CNN
+F 1 "470" V 3550 3800 50  0000 C CNN
+F 2 "" V 3480 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3950 3550 4050
+Wire Wire Line
+	3550 4050 3850 4050
+$EndSCHEMATC
