@@ -127,26 +127,6 @@ X DIN 4 -400 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# POT
-#
-DEF POT RV 0 40 N N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "POT" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 100 0 60 0 N
-P 3 0 1 0 45 0 90 20 90 -20 F
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # PWR_FLAG
 #
 DEF PWR_FLAG #FLG 0 0 N N 1 F P
@@ -175,6 +155,31 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TC33X-2-103E
+#
+DEF TC33X-2-103E POT 0 0 Y Y 1 F N
+F0 "POT" -200 200 60 H V C CNN
+F1 "TC33X-2-103E" 0 -200 60 H V C CNN
+F2 "digikey-footprints:TC33X-2-103E" 200 200 60 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 300 60 H I L CNN
+F4 "TC33X-103ETR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TC33X-2-103E" 200 500 60 H I L CNN "MPN"
+F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
+F7 "Trimmer Potentiometers" 200 700 60 H I L CNN "Family"
+F8 "http://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRIMMER 10K OHM 0.1W SMD" 200 1000 60 H I L CNN "Description"
+F11 "Bourns Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 0 200 0 125 N
+P 4 0 1 0 -25 125 25 125 0 75 -25 125 F
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X CCW 1 -300 0 200 R 50 50 1 1 P
+X Wiper 2 0 400 200 D 50 50 1 1 P
+X CW 3 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
