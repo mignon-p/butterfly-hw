@@ -738,4 +738,21 @@ Wire Wire Line
 	3100 6050 2800 6050
 Wire Wire Line
 	2800 6050 2800 6150
+$Comp
+L Conn_01x02 J3
+U 1 1 5A5F931C
+P 7650 4300
+F 0 "J3" H 7650 4400 50  0000 C CNN
+F 1 "Conn_01x02" H 7650 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 7650 4300 50  0001 C CNN
+F 3 "" H 7650 4300 50  0001 C CNN
+	1    7650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4300 7350 4300
+Wire Wire Line
+	7350 4300 7350 4400
+Wire Wire Line
+	7350 4400 7450 4400
 $EndSCHEMATC
