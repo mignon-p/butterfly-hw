@@ -341,72 +341,6 @@ F 3 "" H 3200 3725 50  0001 L TNN
 	1    3100 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Neopixel_THT D19
-U 1 1 5A5E8D9F
-P 4100 4100
-F 0 "D19" H 4200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 4200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 4200 3800 50  0001 L TNN
-F 3 "" H 4200 3725 50  0001 L TNN
-	1    4100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Neopixel_THT D20
-U 1 1 5A5E8DA5
-P 5100 4100
-F 0 "D20" H 5200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 5200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 5200 3800 50  0001 L TNN
-F 3 "" H 5200 3725 50  0001 L TNN
-	1    5100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Neopixel_THT D21
-U 1 1 5A5E8DAB
-P 6100 4100
-F 0 "D21" H 6200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 6200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 6200 3800 50  0001 L TNN
-F 3 "" H 6200 3725 50  0001 L TNN
-	1    6100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Neopixel_THT D22
-U 1 1 5A5E8DB1
-P 7100 4100
-F 0 "D22" H 7200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 7200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 7200 3800 50  0001 L TNN
-F 3 "" H 7200 3725 50  0001 L TNN
-	1    7100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Neopixel_THT D23
-U 1 1 5A5E8DB7
-P 8100 4100
-F 0 "D23" H 8200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 8200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 8200 3800 50  0001 L TNN
-F 3 "" H 8200 3725 50  0001 L TNN
-	1    8100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Neopixel_THT D24
-U 1 1 5A5E8DBD
-P 9100 4100
-F 0 "D24" H 9200 4325 50  0000 L BNN
-F 1 "Neopixel_THT" H 9200 3875 50  0000 L TNN
-F 2 "LEDs:LED_D5.0mm-4" H 9200 3800 50  0001 L TNN
-F 3 "" H 9200 3725 50  0001 L TNN
-	1    9100 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 5800 7350 5800
 Wire Wire Line
@@ -490,29 +424,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 2100 3600
 Wire Wire Line
-	2100 3600 10000 3600
-Wire Wire Line
-	9100 3600 9100 3800
-Wire Wire Line
 	2100 4400 2100 4600
 Wire Wire Line
-	1200 4600 9100 4600
-Wire Wire Line
-	9100 4600 9100 4400
-Wire Wire Line
 	2500 4100 2700 4100
-Wire Wire Line
-	3500 4100 3700 4100
-Wire Wire Line
-	4500 4100 4700 4100
-Wire Wire Line
-	5500 4100 5700 4100
-Wire Wire Line
-	6500 4100 6700 4100
-Wire Wire Line
-	7500 4100 7700 4100
-Wire Wire Line
-	8500 4100 8700 4100
 Wire Wire Line
 	9500 1300 9800 1300
 Wire Wire Line
@@ -617,38 +531,7 @@ Wire Wire Line
 	3100 3800 3100 3600
 Connection ~ 3100 3600
 Wire Wire Line
-	4100 3800 4100 3600
-Connection ~ 4100 3600
-Wire Wire Line
-	5100 3800 5100 3600
-Connection ~ 5100 3600
-Wire Wire Line
-	6100 3800 6100 3600
-Connection ~ 6100 3600
-Wire Wire Line
-	7100 3800 7100 3600
-Connection ~ 7100 3600
-Wire Wire Line
-	8100 3800 8100 3600
-Connection ~ 8100 3600
-Wire Wire Line
 	3100 4400 3100 4600
-Connection ~ 3100 4600
-Wire Wire Line
-	4100 4400 4100 4600
-Connection ~ 4100 4600
-Wire Wire Line
-	5100 4400 5100 4600
-Connection ~ 5100 4600
-Wire Wire Line
-	6100 4400 6100 4600
-Connection ~ 6100 4600
-Wire Wire Line
-	7100 4400 7100 4600
-Connection ~ 7100 4600
-Wire Wire Line
-	8100 4400 8100 4600
-Connection ~ 8100 4600
 $Comp
 L GND #PWR06
 U 1 1 5A5EB5EF
@@ -683,7 +566,6 @@ Wire Wire Line
 Connection ~ 9100 800 
 Connection ~ 9100 2200
 Connection ~ 10000 800 
-Connection ~ 9100 3600
 Connection ~ 10000 2200
 $Comp
 L Conn_02x03_Odd_Even J1
@@ -809,13 +691,12 @@ Connection ~ 7250 6300
 Connection ~ 8100 5450
 NoConn ~ 8000 6000
 NoConn ~ 8000 6100
-NoConn ~ 9500 4100
 $Comp
 L C C1
 U 1 1 5A5EBC03
 P 8500 6000
 F 0 "C1" H 8525 6100 50  0000 L CNN
-F 1 "4.7uF" H 8525 5900 50  0000 L CNN
+F 1 "0.1uF" H 8525 5900 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8538 5850 50  0001 C CNN
 F 3 "" H 8500 6000 50  0001 C CNN
 	1    8500 6000
@@ -826,7 +707,7 @@ L C C2
 U 1 1 5A5EBC78
 P 8850 6000
 F 0 "C2" H 8875 6100 50  0000 L CNN
-F 1 "4.7uF" H 8875 5900 50  0000 L CNN
+F 1 "10uF" H 8875 5900 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8888 5850 50  0001 C CNN
 F 3 "" H 8850 6000 50  0001 C CNN
 	1    8850 6000
@@ -843,4 +724,9 @@ Connection ~ 7700 6550
 Wire Wire Line
 	8500 6150 8500 6550
 Connection ~ 8500 6550
+Wire Wire Line
+	2100 3600 10000 3600
+Wire Wire Line
+	3100 4600 1200 4600
+NoConn ~ 3500 4100
 $EndSCHEMATC
