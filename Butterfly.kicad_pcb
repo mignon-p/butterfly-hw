@@ -2,7 +2,7 @@
 
   (general
     (links 93)
-    (no_connects 47)
+    (no_connects 83)
     (area 98.409153 69.322099 191.590847 155.950641)
     (thickness 1.6)
     (drawings 182)
@@ -472,7 +472,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C5A)
-    (at 145 144.925641)
+    (at 131 95)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E7EC4)
@@ -511,7 +511,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C62)
-    (at 145 144.925641)
+    (at 119 88)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E7F64)
@@ -550,7 +550,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C6A)
-    (at 145 144.925641)
+    (at 107 79)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E7F8C)
@@ -589,7 +589,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C72)
-    (at 145 144.925641)
+    (at 132 104)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E7FB8)
@@ -628,7 +628,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C7A)
-    (at 145 144.925641)
+    (at 120 99)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E7FED)
@@ -667,7 +667,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C82)
-    (at 145 144.925641)
+    (at 108 92)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8020)
@@ -706,7 +706,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C8A)
-    (at 145 144.925641)
+    (at 124 109)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E81AE)
@@ -745,7 +745,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C92)
-    (at 145 144.925641)
+    (at 120 124)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E81E6)
@@ -784,7 +784,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9C9A)
-    (at 145 144.925641)
+    (at 129 119)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A06)
@@ -823,7 +823,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CA2)
-    (at 145 144.925641)
+    (at 155 95)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A0C)
@@ -862,7 +862,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CAA)
-    (at 145 144.925641)
+    (at 168 87)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A12)
@@ -901,7 +901,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CB2)
-    (at 145 144.925641)
+    (at 179 79)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A18)
@@ -940,7 +940,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CBA)
-    (at 145 144.925641)
+    (at 154 104)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A1E)
@@ -979,7 +979,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CC2)
-    (at 145 144.925641)
+    (at 166 99)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A24)
@@ -1018,7 +1018,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CCA)
-    (at 145 144.925641)
+    (at 178 92)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A2A)
@@ -1057,7 +1057,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CD2)
-    (at 145 144.925641)
+    (at 162 109)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8A30)
@@ -1096,7 +1096,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CDA)
-    (at 145 144.925641)
+    (at 166 124)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8D93)
@@ -1135,7 +1135,7 @@
   )
 
   (module LEDs:LED_D5.0mm-4 (layer F.Cu) (tedit 587A3A7B) (tstamp 5A5E9CE2)
-    (at 145 144.925641)
+    (at 157 119)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins")
     (path /5A5E8D99)
