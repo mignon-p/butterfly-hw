@@ -765,7 +765,7 @@ $EndComp
 Wire Wire Line
 	7350 6300 7350 6550
 Wire Wire Line
-	7350 6550 7700 6550
+	7350 6550 8850 6550
 Wire Wire Line
 	7700 6550 7700 6400
 Connection ~ 6850 6300
@@ -775,7 +775,7 @@ Connection ~ 7600 6550
 Wire Wire Line
 	7350 5800 7350 5450
 Wire Wire Line
-	7350 5450 8100 5450
+	7350 5450 8850 5450
 Wire Wire Line
 	8100 5350 8100 5800
 Wire Wire Line
@@ -810,4 +810,37 @@ Connection ~ 8100 5450
 NoConn ~ 8000 6000
 NoConn ~ 8000 6100
 NoConn ~ 9500 4100
+$Comp
+L C C1
+U 1 1 5A5EBC03
+P 8500 6000
+F 0 "C1" H 8525 6100 50  0000 L CNN
+F 1 "4.7uF" H 8525 5900 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8538 5850 50  0001 C CNN
+F 3 "" H 8500 6000 50  0001 C CNN
+	1    8500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5A5EBC78
+P 8850 6000
+F 0 "C2" H 8875 6100 50  0000 L CNN
+F 1 "4.7uF" H 8875 5900 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8888 5850 50  0001 C CNN
+F 3 "" H 8850 6000 50  0001 C CNN
+	1    8850 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5450 8850 5850
+Wire Wire Line
+	8500 5850 8500 5450
+Connection ~ 8500 5450
+Wire Wire Line
+	8850 6550 8850 6150
+Connection ~ 7700 6550
+Wire Wire Line
+	8500 6150 8500 6550
+Connection ~ 8500 6550
 $EndSCHEMATC
