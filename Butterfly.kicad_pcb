@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 0)
+    (links 76)
     (no_connects 0)
     (area 53.462159 73.047739 146.643853 138.651281)
     (thickness 1.6)
@@ -13,6 +13,13 @@
   )
 
   (page USLetter)
+  (title_block
+    (title "Butterfly Nightlight")
+    (date 2018-01-18)
+    (rev 1.0)
+    (company "Patrick Pelletier")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
