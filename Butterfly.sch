@@ -36,10 +36,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Butterfly Nightlight"
+Date "2018-01-18"
+Rev "1.0"
+Comp "Patrick Pelletier"
 Comment1 ""
 Comment2 ""
 Comment3 ""
