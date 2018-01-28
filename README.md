@@ -17,46 +17,33 @@ color instead.)
 * D1-D18 (qty 18) - 5mm through-hole NeoPixel.  SparkFun part
   no. [COM-12986](https://www.sparkfun.com/products/12986).  Digi-Key
   part no. [1568-1213-ND](https://www.digikey.com/product-detail/en/sparkfun-electronics/COM-12986/1568-1213-ND/5673799).
-
 * U1 (qty 1) - ATtiny85 microcontroller.  Atmel part
   no. ATTINY85-20PU.  Digi-Key part no. [ATTINY85-20PU-ND](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469).
-
 * U1 (qty 1) - 8-pin DIP socket.  Assmann part no. A 08-LC-TT.
   Digi-Key part no. [AE9986-ND](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-08-LC-TT/AE9986-ND/821740).
-
 * J1 (qty 1; optional) - 6-pin 0.050" header.  Sullins part
   no. GRPB032VWVN-RC.  Digi-Key part no [S9015E-03-ND](https://www.digikey.com/product-detail/en/sullins-connector-solutions/GRPB032VWVN-RC/S9015E-03-ND/1786453).
-
 * J2 (qty 1) - USB A plug.  Molex part no. 0480370001.  Digi-Key part
   no. [WM17117-ND](https://www.digikey.com/product-detail/en/molex-llc/0480370001/WM17117-ND/857603).
-
 * C1 (qty 1) - 0.1µF 0805 capacitor.  AVX part no. 08055C104KAT2A.
   Digi-Key part no. [478-1395-1-ND](https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427).
-
 * C2 (qty 1) - 10µF 0805 capacitor.  Kemet part no. C0805C106K8PACTU.
   Digi-Key part no. [399-4925-1-ND](https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920).
-
 * R1 (qty 1) - 470 Ohm 0805 resistor.  Rohm part no. ESR10EZPJ471.
   Digi-Key part no. [RHM470KCT-ND](https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ471/RHM470KCT-ND/1763027).
-
 * R2 (qty 1) - 10k Ohm 0805 resistor.  Susumu part no. RR1220P-103-D.
   Digi-Key part no. [RR12P10.0KDCT-ND](https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854).
-
 * POT1 (qty 1) - 10k Ohm potentiometer.  Bourns part no. TC33X-2-103E.
   Digi-Key part no. [TC33X-103ECT-ND](https://www.digikey.com/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ECT-ND/612911).
-
 * [Bare wire, 20 AWG](https://smile.amazon.com/gp/product/B01BDB8240/).
-
 * [USB power adapter with USB A receptacle](https://smile.amazon.com/gp/product/B06Y2H4RJ6/).
 
 ## Tools
 
 * Standard soldering tools.
-
 * Tiny AVR Programmer.  SparkFun part
   no. [PGM-11801](https://www.sparkfun.com/products/11801).  Digi-Key
   part no. [1568-1079-ND](https://www.digikey.com/product-detail/en/sparkfun-electronics/PGM-11801/1568-1079-ND/5230948).
-
 * Computer with [Arduino IDE](https://www.arduino.cc/en/Main/Software)
   installed.
 
