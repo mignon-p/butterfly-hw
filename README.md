@@ -105,7 +105,7 @@ the chip should be in the upper-left corner.
 Probably the easiest way to program the ATtiny85 is by removing the
 chip and inserting it into the Tiny AVR Programmer.  However, if you
 wish to program the ATtiny85 in-circuit, J1 has the pinout of a
-standard 6-pin ISP header, designed to be mounted on the back of the
+[standard 6-pin ISP header][8], designed to be mounted on the back of the
 board.  Although it has the standard pinout, J1 is half the pitch of a
 standard ISP header, so you'll need an adapter.
 
@@ -128,6 +128,7 @@ which is licensed under [the same terms][4] as the KiCad library.
 [5]: http://kicad-pcb.org/
 [6]: https://en.wikipedia.org/wiki/Gerber_format
 [7]: https://github.com/ppelleti/butterfly-fw
+[8]: http://www.batsocks.co.uk/readme/isp_headers.htm
 [12]: https://creativecommons.org/licenses/by-sa/4.0/
 [14]: https://github.com/KiCad/kicad-footprints
 [15]: https://forum.kicad.info/t/kicad-library-licensing/7856
