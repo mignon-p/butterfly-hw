@@ -61,7 +61,9 @@ Note that in the KiCad files and Gerber files, the "front" of the
 board is actually the back, and vice-versa. This is because JLCPCB
 adds a customer ID number to the front of the board, but I wanted the
 number to be on the actual back of the board, where it doesn't disrupt
-the esthetics of the nightlight.
+the esthetics of the nightlight.  (It turns out it's
+[possible to specify the location of the customer ID][9], but I hadn't
+read that when I first came up with this trick.)
 
 ## Assembly
 
@@ -129,6 +131,7 @@ which is licensed under [the same terms][4] as the KiCad library.
 [6]: https://en.wikipedia.org/wiki/Gerber_format
 [7]: https://github.com/ppelleti/butterfly-fw
 [8]: http://www.batsocks.co.uk/readme/isp_headers.htm
+[9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
 [12]: https://creativecommons.org/licenses/by-sa/4.0/
 [14]: https://github.com/KiCad/kicad-footprints
 [15]: https://forum.kicad.info/t/kicad-library-licensing/7856
