@@ -12,6 +12,9 @@ control the brightness.  (This functionality is handled in software,
 so it could potentially be repurposed, such as to control speed or
 color instead.)
 
+The nightlight [plugs into a standard USB power adapter][10] (phone
+charger), which handles the AC-to-DC conversion.
+
 ## Bill of Materials
 
 * D1-D18 (qty 18) - 5mm through-hole NeoPixel.  SparkFun part
@@ -132,6 +135,7 @@ which is licensed under [the same terms][4] as the KiCad library.
 [7]: https://github.com/ppelleti/butterfly-fw
 [8]: http://www.batsocks.co.uk/readme/isp_headers.htm
 [9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
+[10]: doc/Butterfly-adapter.jpg
 [12]: https://creativecommons.org/licenses/by-sa/4.0/
 [14]: https://github.com/KiCad/kicad-footprints
 [15]: https://forum.kicad.info/t/kicad-library-licensing/7856
