@@ -39,6 +39,8 @@ If you don't want to build your own, I am now
   Digi-Key part no. [RR12P10.0KDCT-ND](https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854).
 * POT1 (qty 1) - 10k Ohm potentiometer.  Bourns part no. TC33X-2-103E.
   Digi-Key part no. [TC33X-103ECT-ND](https://www.digikey.com/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ECT-ND/612911).
+* SW1 (qty 1; optional) - Pushbutton.  Omron part no. B3S-1000.
+  Digi-Key part no. [SW415-ND](https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3S-1000/SW415-ND/20686).
 * [Bare wire, 20 AWG](https://smile.amazon.com/gp/product/B01BDB8240/).
 * [USB power adapter with USB A receptacle](https://smile.amazon.com/gp/product/B06Y2H4RJ6/).
 
@@ -105,6 +107,15 @@ the chip should be in the upper-left corner.
 8. Plug the butterfly into the USB power adapter.
 
 9. Plug the power adapter into the wall.
+
+## Bonus Button
+
+SW1 can optionally be populated with a surface-mount pushbutton, which
+is connected to physical pin 5 of the ATtiny85.  (Arduino digital pin
+0.)  This is not used in the default firmware, and I don't normally
+populate it.  But, you can populate it if you want to have an
+additional input in custom firmware that you write.  The pushbutton
+pulls the pin to GND, so you'll need to activate the internal pullup.
 
 ## License
 
