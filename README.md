@@ -27,8 +27,6 @@ If you don't want to build your own, I am now
   no. ATTINY85-20PU.  Digi-Key part no. [ATTINY85-20PU-ND](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469).
 * U1 (qty 1) - 8-pin DIP socket.  Assmann part no. A 08-LC-TT.
   Digi-Key part no. [AE9986-ND](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-08-LC-TT/AE9986-ND/821740).
-* J1 (qty 1; optional) - 6-pin 0.050" header.  Sullins part
-  no. GRPB032VWVN-RC.  Digi-Key part no [S9015E-03-ND](https://www.digikey.com/product-detail/en/sullins-connector-solutions/GRPB032VWVN-RC/S9015E-03-ND/1786453).
 * J2 (qty 1) - USB A plug.  Molex part no. 0480370001.  Digi-Key part
   no. [WM17117-ND](https://www.digikey.com/product-detail/en/molex-llc/0480370001/WM17117-ND/857603).
 * C1 (qty 1) - 0.1µF 0805 capacitor.  AVX part no. 08055C104KAT2A.
@@ -108,15 +106,6 @@ the chip should be in the upper-left corner.
 
 9. Plug the power adapter into the wall.
 
-## ISP Header
-
-Probably the easiest way to program the ATtiny85 is by removing the
-chip and inserting it into the Tiny AVR Programmer.  However, if you
-wish to program the ATtiny85 in-circuit, J1 has the pinout of a
-[standard 6-pin ISP header][8], designed to be mounted on the back of the
-board.  Although it has the standard pinout, J1 is half the pitch of a
-standard ISP header, so you'll need an adapter.
-
 ## License
 
 This design is licensed under the
@@ -136,7 +125,6 @@ which is licensed under [the same terms][4] as the KiCad library.
 [5]: http://kicad-pcb.org/
 [6]: https://en.wikipedia.org/wiki/Gerber_format
 [7]: https://github.com/ppelleti/butterfly-fw
-[8]: http://www.batsocks.co.uk/readme/isp_headers.htm
 [9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
 [10]: doc/Butterfly-adapter.jpg
 [11]: http://absmaxrat.com/

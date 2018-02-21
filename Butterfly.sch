@@ -37,8 +37,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Butterfly Nightlight"
-Date "2018-01-18"
-Rev "1.0"
+Date "2018-02-21"
+Rev "1.1"
 Comp "Patrick Pelletier"
 Comment1 ""
 Comment2 ""
@@ -76,17 +76,6 @@ F 1 "+5V" H 6850 5840 50  0000 C CNN
 F 2 "" H 6850 5700 50  0001 C CNN
 F 3 "" H 6850 5700 50  0001 C CNN
 	1    6850 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 5A5E7788
-P 3900 6550
-F 0 "R2" V 3980 6550 50  0000 C CNN
-F 1 "10k" V 3900 6550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 6550 50  0001 C CNN
-F 3 "" H 3900 6550 50  0001 C CNN
-	1    3900 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -329,12 +318,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 6300 6850 6400
 Wire Wire Line
-	3850 6300 4000 6300
-Wire Wire Line
-	3900 6300 3900 6400
-Wire Wire Line
-	3900 6700 3900 6800
-Wire Wire Line
 	3500 6800 4150 6800
 Wire Wire Line
 	4150 6800 4150 6700
@@ -543,72 +526,6 @@ Connection ~ 9100 2200
 Connection ~ 10000 800 
 Connection ~ 10000 2200
 $Comp
-L Conn_02x03_Odd_Even J1
-U 1 1 5A5E8BD7
-P 5250 5200
-F 0 "J1" H 5300 5400 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5300 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm" H 5250 5200 50  0001 C CNN
-F 3 "" H 5250 5200 50  0001 C CNN
-	1    5250 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 5100 3950 5100
-Wire Wire Line
-	3950 5100 3950 5900
-Wire Wire Line
-	3950 5900 4000 5900
-Wire Wire Line
-	5050 5200 3900 5200
-Wire Wire Line
-	3900 5200 3900 6000
-Wire Wire Line
-	3900 6000 4000 6000
-Wire Wire Line
-	5050 5300 3850 5300
-Wire Wire Line
-	3850 5300 3850 6300
-Connection ~ 3900 6300
-Wire Wire Line
-	5550 5200 5750 5200
-Wire Wire Line
-	5750 5200 5750 5500
-Wire Wire Line
-	5750 5500 4000 5500
-Wire Wire Line
-	4000 5500 4000 5800
-$Comp
-L +5V #PWR07
-U 1 1 5A5E934B
-P 5650 5000
-F 0 "#PWR07" H 5650 4850 50  0001 C CNN
-F 1 "+5V" H 5650 5140 50  0000 C CNN
-F 2 "" H 5650 5000 50  0001 C CNN
-F 3 "" H 5650 5000 50  0001 C CNN
-	1    5650 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR08
-U 1 1 5A5E93B6
-P 5950 5400
-F 0 "#PWR08" H 5950 5150 50  0001 C CNN
-F 1 "GND" H 5950 5250 50  0000 C CNN
-F 2 "" H 5950 5400 50  0001 C CNN
-F 3 "" H 5950 5400 50  0001 C CNN
-	1    5950 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 5100 5650 5100
-Wire Wire Line
-	5650 5100 5650 5000
-Wire Wire Line
-	5550 5300 5950 5300
-Wire Wire Line
-	5950 5300 5950 5400
-$Comp
 L USB_A J2
 U 1 1 5A5E9FFA
 P 7700 6000
@@ -755,4 +672,11 @@ Wire Wire Line
 	7350 4300 7350 4400
 Wire Wire Line
 	7350 4400 7450 4400
+Wire Wire Line
+	4000 6300 3900 6300
+Wire Wire Line
+	3900 6300 3900 6800
+NoConn ~ 4000 5800
+NoConn ~ 4000 5900
+NoConn ~ 4000 6000
 $EndSCHEMATC
