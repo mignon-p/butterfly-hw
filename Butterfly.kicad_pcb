@@ -15,8 +15,8 @@
   (page USLetter)
   (title_block
     (title "Butterfly Nightlight")
-    (date 2018-01-18)
-    (rev 1.0)
+    (date 2018-02-21)
+    (rev 1.1)
     (company "Patrick Pelletier")
   )
 
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.1524)
     (user_trace_width 0.508)
     (trace_clearance 0.1524)
     (zone_clearance 0.508)
@@ -2096,10 +2096,10 @@
   (gr_text "adjust\nbrightness" (at 109.5 114.5 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "Butterfly Nightlight 1.0" (at 125 83.5 35) (layer F.SilkS)
+  (gr_text "Butterfly Nightlight 1.1" (at 125 83.5 35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text http://funwithsoftware.org/electronics/ (at 78 85.5 325) (layer F.SilkS)
+  (gr_text https://github.com/ppelleti/butterfly-hw (at 78 85.5 325) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "© Patrick Pelletier" (at 76 123) (layer F.SilkS)
