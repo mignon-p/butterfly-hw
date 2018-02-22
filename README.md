@@ -35,8 +35,6 @@ If you don't want to build your own, I am now
   Digi-Key part no. [399-4925-1-ND](https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920).
 * R1 (qty 1) - 470 Ohm 0805 resistor.  Rohm part no. ESR10EZPJ471.
   Digi-Key part no. [RHM470KCT-ND](https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ471/RHM470KCT-ND/1763027).
-* R2 (qty 1) - 10k Ohm 0805 resistor.  Susumu part no. RR1220P-103-D.
-  Digi-Key part no. [RR12P10.0KDCT-ND](https://www.digikey.com/product-detail/en/susumu/RR1220P-103-D/RR12P10.0KDCT-ND/432854).
 * POT1 (qty 1) - 10k Ohm potentiometer.  Bourns part no. TC33X-2-103E.
   Digi-Key part no. [TC33X-103ECT-ND](https://www.digikey.com/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ECT-ND/612911).
 * SW1 (qty 1; optional) - Pushbutton.  Omron part no. B3S-1000.
@@ -73,8 +71,8 @@ read that when I first came up with this trick.)
 
 ## Assembly
 
-1. Solder the surface-mount components C1, C2, R1, R2, and POT1 onto
-the back of the board.
+1. Solder the surface-mount components C1, C2, R1, and POT1 onto the
+back of the board.
 
 2. Solder the USB plug onto the back of the board.  The plug is meant
 to be used at a right angle, so some surgery is required.  Use
