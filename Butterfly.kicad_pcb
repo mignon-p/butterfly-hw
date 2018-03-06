@@ -15,8 +15,8 @@
   (page USLetter)
   (title_block
     (title "Butterfly Nightlight")
-    (date 2018-02-21)
-    (rev 1.1)
+    (date 2018-03-06)
+    (rev 1.2)
     (company "Patrick Pelletier")
   )
 
@@ -1720,7 +1720,7 @@
   (gr_text "adjust\nbrightness" (at 109.5 114.5 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "Butterfly Nightlight 1.1" (at 125 83.5 35) (layer F.SilkS)
+  (gr_text "Butterfly Nightlight 1.2" (at 125 83.5 35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "© Patrick Pelletier" (at 76 123) (layer F.SilkS)
