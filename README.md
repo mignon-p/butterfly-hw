@@ -131,7 +131,7 @@ which is licensed under [the same terms][4] as the KiCad library.
 [2]: https://en.wikipedia.org/wiki/Electroless_nickel_immersion_gold
 [3]: https://github.com/digikey/digikey-kicad-library
 [4]: https://github.com/digikey/digikey-kicad-library/blob/master/LICENSE.md
-[5]: http://kicad-pcb.org/
+[5]: http://kicad.org/
 [6]: https://en.wikipedia.org/wiki/Gerber_format
 [7]: https://github.com/ppelleti/butterfly-fw
 [9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
